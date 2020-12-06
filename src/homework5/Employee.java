@@ -2,12 +2,12 @@ package homework5;
 
 public class Employee {
 
-    String firstLastName;
-    String position;
-    String emailAddress;
-    String phoneNumber;
-    int salary;
-    int age;
+   private String firstLastName;
+   private String position;
+   private String emailAddress;
+   private String phoneNumber;
+   private int salary;
+   int age;
 
     @Override
     public String toString() {
