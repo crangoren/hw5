@@ -7,7 +7,7 @@ public class Employee {
    private String emailAddress;
    private String phoneNumber;
    private int salary;
-   int age;
+   private int age;
 
     @Override
     public String toString() {
@@ -34,6 +34,10 @@ public class Employee {
     }
     void info() {
         System.out.printf("Employee %s, %s, %d \n", firstLastName, position, age);
+    }
+    int getAge() {
+
+        return age;
     }
 
 }
